@@ -13,18 +13,17 @@ public class Account {
 
     void withdraw(){
         System.out.print("Nhập vào số tiền cần rút?");
-        int withdrawAmount = input.nextInt();
-        account_balance -= withdrawAmount; //thao tác lên data
-        //account_balance = account_balance - withdrawAmount
+        int withdraw = input.nextInt();
+        account_balance -= withdraw; //account_balance = account_balance - withdraw
 
     }
     
     void deposit(){
         //gửi tiền: deposit
         System.out.print("Nhập vào số tiền gửi");
-        int depositAmount = 0;
-        depositAmount = input.nextInt();
-        account_balance += depositAmount; //thao tác lên data
+        int deposit = 0;
+        deposit = input.nextInt();
+        account_balance += deposit; //account_balance = account_balance - deposit
 
     }
 
