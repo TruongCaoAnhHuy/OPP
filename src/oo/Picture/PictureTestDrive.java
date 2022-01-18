@@ -26,16 +26,13 @@ public class PictureTestDrive {
         menu = sc.nextInt();
         switch(menu){
             case 1: 
-                square.action();
-                square.sound();
+                square.action_sound();
                 break;
             case 2:
-                circle.action();
-                circle.sound();
+                circle.action_sound();
                 break;
             case 3:
-                triangle.action();
-                triangle.sound();
+                triangle.action_sound();
                 break;
         }
             

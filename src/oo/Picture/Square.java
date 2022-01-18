@@ -3,6 +3,8 @@ package oo.Picture;
 public class Square {
     String action, sound;
 
+    Action_Sound ac_s = new Action_Sound();
+
     public String getAction() {
         return action;
     }
@@ -11,11 +13,7 @@ public class Square {
         return sound;
     }
 
-    public void action(){
-        System.out.println("Xoayy 360");
-    }
-
-    public void sound(){
-        System.err.println("BÍPPP...");
+    public void action_sound(){
+        ac_s.action_sound();
     }
 }
