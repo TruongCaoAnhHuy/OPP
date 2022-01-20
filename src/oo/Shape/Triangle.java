@@ -1,6 +1,8 @@
-package oo.Picture;
+package oo.Shape;
 
-public class Circle {
+//import oo.Action_Sound;
+
+public class Triangle {
     String action, sound;
 
     Action_Sound ac_s = new Action_Sound();

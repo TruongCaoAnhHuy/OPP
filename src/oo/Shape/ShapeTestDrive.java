@@ -1,8 +1,8 @@
-package oo.Picture;
+package oo.Shape;
 
 import java.util.Scanner;
 
-public class PictureTestDrive {
+public class ShapeTestDrive {
     public static void main(String[] args) {
         //hình vuông
         Square square = new Square();

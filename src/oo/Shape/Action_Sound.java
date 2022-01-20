@@ -1,4 +1,4 @@
-package oo.Picture;
+package oo.Shape;
 
 public class Action_Sound {
     public void action_sound(){

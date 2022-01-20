@@ -1,6 +1,6 @@
-package oo.Picture;
+package oo.Shape;
 
-public class Square {
+public class Circle {
     String action, sound;
 
     Action_Sound ac_s = new Action_Sound();
