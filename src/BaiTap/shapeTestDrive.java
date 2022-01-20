@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class shapeTestDrive {
     public static void main(String[] args) {
-        int menu;
         Scanner sc = new Scanner(System.in);
+        int menu;
         do{
             System.out.println("1. Square");
             System.out.println("2. Circle");
